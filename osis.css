@@ -1,46 +1,179 @@
+#text{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 300px;
+  text-transform: uppercase;
+  font-family: "Arial Black";
+  font-weight: 700;
+}
+
+
 * {
-  padding: 0;
-  margin: 0;
-}
-
-.navigasi {
-  background-color: #0c4cd9;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-}
-
-.navigasi img {
-  width: 10%;
-  height: 10%;
-}
-
-.logo {
-
-  padding-left: 20px;
-  color: aliceblue;
-  size: 50px;
-  font-size: 25px;
-}
-
-.menu {
-  margin-left: 800px;
-  padding-top: -40;
-}
-.menu ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 30px;
-}
-
-.menu ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 25px;
-  font-family: fantasy;
+  margin: 0px;
+  padding: 0px;
 }
 
-.h1 {
-  color: pink;
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#505160;
 }
+
+
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.menu{
+  float: right;
+}
+
+nav{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color:#68829e;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div p{
+  color:#ffff
+  white-space:nowrap;
+  -webkit-animation: 5s steps(50, end);
+  animation:  5s steps(50, end);
+  }
+
+nav ul li{
+  float: left;
+}
+
+.typing > * {
+  overflow:hidden;
+  white-space: nowrap;
+  animation: typinganim
+}
+
+nav ul li a{
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+.kolom {
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+  font-size: 40px;
+  font-weight: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  color:darkslateblue ;
+  line-break: normal;
+}
+
+p{
+color: white;
+}
+
+h2{
+  font-size: 35;
+  font-weight: 800;
+  color:372948p;
+  margin-bottom: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  line-height: 50%;
+}
+
+a.tbl-biru {
+  background:#324aa8;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color:blanchedalmond;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+a.tbl-biru:hover{
+  background:brown;
+  text-decoration:none;
+}
+
+.section{
+  float: left;
+}
+
+ .container p{
+  color:white;
+  font-family:cursive;
+  font-size: 25px;
+  background-color:dimgray;
+  padding: 10px 0px 10px 0px;
+ }
+
+  .deskripsi h1{
+  padding: 10px 10px 15px 60px;
+  text-decoration: none;
+  color: yellow;
+  font-display:inherit;
+
+
+  
+ }
+
+ section div h1{
+  background-color:#555;
+  color:#fff;
+  padding:5px;
+ }
+
+ .div h4{
+  color: aquamarine;
+ }
+
+  .gol-jpg{
+    padding: 100px;
+    line-break: 100px;
+    line-height: 100px;
+  }
+
+h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
